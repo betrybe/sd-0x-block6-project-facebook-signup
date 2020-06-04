@@ -122,7 +122,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 ## Requisitos Obrigatórios:
 
-**Caso você faça o _download_ de bibliotecas externas, utilize o diretório _libs_ (a partir da raiz do projeto) para colocar os arquivos (*.css, *.js, etc...) baixados.**
+Caso você faça o _download_ de bibliotecas externas, utilize o diretório _libs_ (a partir da raiz do projeto) para colocar os arquivos (*.css, *.js, etc...) baixados.
 
 ### 1 - Posicionamento de elementos utilizando _CSS Flexbox_.
 
