@@ -82,6 +82,8 @@ Use a inspeção de código para verificar a estrutura da página de cadastro/lo
 
 Você irá desenvolver este projeto em **dupla** e é fundamental que siga as instruções do repositório.
 
+![Página Facebook](./facebook.png)
+
 ## ⚠️ Leia-os atentamente e siga à risca o que for pedido. Em particular, **atente-se para os nomes de _ids_ que alguns elementos de seu projeto devem possuir**. ⚠️
 
 O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
@@ -197,6 +199,14 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
       Por exemplo:
         Se a pessoa que usa digitar o nome "João" e selecionar "Personalizado", o conteúdo da mensagem no `alert` deve ser 'João - Personalizado'.
     * Caso alguma validação dê errado, exiba um `alert` com a mensagem 'Dados inválidos'.
+
+## Requisito Bônus
+
+**Esse requisito não é verificável pelo avaliador automático. Sua apresentação (opcional) será realizada durante o fechamento do dia seguinte ao final do projeto**
+
+### Realize o desenvolvimento da versão mobile do Facebook.
+
+![Página Facebook](./facebook-mobile.png)
 
 ---
 
