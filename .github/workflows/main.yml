@@ -18,7 +18,7 @@ jobs:
         if: steps.wait-for-build.outputs.conclusion == 'success'
       - name: Cypress evaluator step
         id: cypress
-        uses: betrybe/cypress-evaluator-action@v2
+        uses: betrybe/cypress-evaluator-action@v4
         if: steps.wait-for-build.outputs.conclusion == 'success'
         with:
           repository-test-name: 'betrybe/sd-0x-block6-project-facebook-signup-tests'
@@ -29,4 +29,4 @@ jobs:
         with:
           evaluation-data: ${{ steps.cypress.outputs.result }}
           environment: staging
-          pr-number: ${{ steps.cypress.outputs.pr-number }}
+          pr-number: ${{ github.event.number }}
