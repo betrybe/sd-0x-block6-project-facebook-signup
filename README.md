@@ -73,6 +73,7 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 ## Requisitos do projeto
 
 ### 💡O projeto deve ser o mais parecido possível com a página inicial do Facebook. Respeitando os requisitos, tente fazer uma cópia perfeita!
+⚠️ Lembre-se que o seu projeto só será avaliado se estiver passando pelos _checks_ do **CodeClimate**.
 
 Todos os requisitos tem como base a página do **Facebook**.
 Use a imagem do site, além de acessar [a página de cadastro/login](https://www.facebook.com/).
@@ -304,8 +305,6 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
 ---
 
 ### DURANTE O DESENVOLVIMENTO
-
-* ⚠ **RECOMENDAMOS QUE VOCÊ FIQUE ATENTO ÀS ISSUES DO CODE CLIMATE, PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO. A PARTIR DO PRÓXIMO BLOCO SEU PROJETO SOMENTE SERÁ AVALIADO SE NÃO TIVER ISSUES NO CODE CLIMATE!** ⚠
 
 * ⚠ **Alguns requisitos pedem para utilizar flex box. Tenha atenção no que é solicitado caso vá usar algum framework CSS para que o requisitos sejam atendidos.** ⚠
 

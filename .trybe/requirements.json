@@ -24,7 +24,7 @@
       "description": "Crie um container com a classe main-content abaixo da barra azul para agrupar o conteúdo principal da página",
       "bonus": false
     },{
-      "description": "Crie um subcontainer com a classe left-content para colocar o conteúdo do lado esquerdo dentro do container com a classe main-content ",
+      "description": "Crie um subcontainer com a classe left-content para colocar o conteúdo do lado esquerdo dentro do container com a classe main-content",
       "bonus": false
     },{
       "description": "Crie um subcontainer com a classe right-content para colocar o conteúdo do lado direito dentro do container com a classe main-content",
