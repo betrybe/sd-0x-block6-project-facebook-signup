@@ -307,6 +307,8 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
 
 * ⚠ **RECOMENDAMOS QUE VOCÊ FIQUE ATENTO ÀS ISSUES DO CODE CLIMATE, PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO. A PARTIR DO PRÓXIMO BLOCO SEU PROJETO SOMENTE SERÁ AVALIADO SE NÃO TIVER ISSUES NO CODE CLIMATE!** ⚠
 
+* ⚠ **Alguns requisitos pedem para utilizar flex box. Tenha atenção no que é solicitado caso vá usar algum framework CSS para que o requisitos sejam atendidos.** ⚠
+
 * Faça `commits` das alterações que você fizer no código regularmente;
 
 * Lembre-se de sempre após um ~~(ou alguns)~~ `commits` atualizar o repositório remoto (o famoso `git push`);
