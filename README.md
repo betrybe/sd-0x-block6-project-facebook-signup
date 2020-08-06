@@ -124,81 +124,75 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 Caso você faça o _download_ de bibliotecas externas, utilize o diretório _libs_ (a partir da raiz do projeto) para colocar os arquivos (*.css, *.js, etc...) baixados.
 
-### 1 - Posicionamento de elementos utilizando _CSS Flexbox_.
+### 1 - Crie uma barra azul na parte superior da página com a classe top-bar
 
-### 2 - Uma barra azul na parte superior da página do **Facebook** com a classe `"top-bar"`.
+### 2 - A barra superior deve conter o logotipo do Facebook no canto esquerdo com a classe facebook-logo
 
-### 3 - O logotipo do **Facebook** no canto superior esquerdo com a classe `"facebook-logo"`.
+### 3 - A barra superior deve conter um formulário de autenticação no canto direito
 
-### 4 - Um campo de entrada de texto no canto superior direito para receber o email ou o telefone do usuário com o id `"user-email-phone"`.
+### 4 - Crie uma classe no CSS chamada form-group
 
-### 5 - Um título com o texto 'Email ou telefone' acima do campo de entrada de texto para email ou telefone com o id `"user-email-phone-label"`.
+### 5 - Adicione o primeiro subcontainer com a classe form-group para agrupar o rótulo e campo "E-mail ou telefone" dentro do formulário criado na etapa 3
 
-### 6 - Um campo de entrada de texto para digitar a senha do usuário com o id `"user-password"`, posicionado no canto superior direito. O campo também deve estar posicionado à direita do campo de entrada de texto para email ou telefone.
-
-  Pontos importantes:
-    * Ao digitar a senha, o padrão deve ser '*****'.
-
-### 7 - Um botão com o id `"button-login"` e o texto 'Entrar', à direita do campo de entrada de texto para senha.
+### 6 - Adicione o segundo subcontainer com a classe form-group para agrupar o rótulo e campo "Senha" dentro do formulário criado na etapa 3
 
   Pontos importantes:
-    * Ao clicar no botão, um `alert` deve ser exibido com o email ou telefone digitado pelo usuário.
+    
 
-### 8 - Um texto 'O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.' abaixo da barra superior azul do **Facebook**, no canto esquerdo.
-
-### 9 - Uma imagem com id `"facebook-networking"`, que ficará abaixo do item 8. Essa imagem deve conter o mapa do mundo e as conexões entre as pessoas.
+### 7 - Adicione o terceiro subcontainer com a classe form-control com o botão "Entrar" dentro do formulário criado na etapa 3
 
   Pontos importantes:
-    * Dê o nome "networking.png" para a imagem.
+    
 
-### 10 - Um texto 'Abra uma conta' posicionado abaixo da caixa de texto de email/telefone.
+### 8 - Crie um container com a classe main-content abaixo da barra azul para agrupar o conteúdo principal da página
 
-### 11 - Um texto 'É rápido e fácil.' posicionado abaixo do texto 'Abra uma conta'.
-
-### 12 - Um campo de entrada de texto para o nome do usuário. Posicione esse campo abaixo do texto 'É rápido e fácil.'.
+### 9 - Crie um subcontainer com a classe left-content para colocar o conteúdo do lado esquerdo dentro do container com a classe main-content 
 
   Pontos importantes:
-    * Defina o `placeholder` com o valor "Nome".
+    
 
-### 13 - Um campo de entrada de texto para o sobrenome do usuário. Posicione esse campo à direita do campo nome.
+### 10 - Crie um subcontainer com a classe right-content para colocar o conteúdo do lado direito dentro do container com a classe main-content
 
-  Pontos importantes:
-    * Defina o `placeholder` com o valor "Sobrenome".
+### 11 - Crie um campo de entrada de texto para o nome do usuário dentro do formulário criado no requisito 10
 
-### 14 - Um campo de entrada de texto para o celular ou email. Posicione esse campo abaixo do sobrenome do usuário.
-
-  Pontos importantes:
-    * Defina o `placeholder` com o valor "Celular ou email".
-
-### 15 - Um campo de entrada de texto para a nova senha do usuário. Posicione esse campo abaixo do celular/email.
+### 12 - Crie um campo de entrada de texto para o sobrenome do usuário dentro do formulário criado no requisito 10
 
   Pontos importantes:
-    * Lembre-se de respeitar a formatação de senha '*****'.
-    * Defina o `placeholder` com o valor "Nova senha".
+    
 
-### 16 - Um texto 'Data de nascimento' abaixo do campo de entrada de texto de nova senha.
-
-### 17 - Um campo para selecionar a data de nascimento.
+### 13 - Crie um campo de entrada de texto para o celular ou email do usuário dentro do formulário criado no requisito 10
 
   Pontos importantes:
-    * Diferentemente do Facebook, esse campo deve ser composto de um único _input_, e você deverá utilizar alguma biblioteca para transformá-lo em um _datepicker_.
-    * Defina o `placeholder` com o valor "dd/mm/aaaa".
+    
 
-### 18 - Um texto 'Gênero' abaixo dos campos de data.
-
-### 19 - Três `radio buttons` com os nomes 'Feminino', 'Masculino' e 'Personalizado'.
+### 14 - Crie um campo de entrada para senha do usuário dentro do formulário criado no requisito 10
 
   Pontos importantes:
-    * Posicione abaixo do texto 'Gênero'.
+    
 
-### 20 - Um botão com o texto 'Cadastre-se' e id `"facebook-register"`.
+### 15 - Crie um campo de entrada para data de nascimento do usuário dentro do formulário criado no requisito 10
 
   Pontos importantes:
-    * Esse botão deve pegar os dados dos itens 12 até 19 e validá-los.
-    * Caso tudo esteja certo, exiba um `alert` com todos os dados no seguinte formato:
-      Por exemplo:
-        Se a pessoa que usa digitar o nome "João" e selecionar "Personalizado", o conteúdo da mensagem no `alert` deve ser 'João - Personalizado'.
-    * Caso alguma validação dê errado, exiba um `alert` com a mensagem 'Dados inválidos'.
+    
+
+### 16 - Crie um campo de entrada para gênero do usuário dentro do formulário criado no requisito 10
+
+### 17 - Crie um botão para finalizar o cadastro dentro do formulário criado no requisito 10
+
+  Pontos importantes:
+    
+
+### 18 - Validar se todos os campos foram preenchidos ao clicar no botão "Cadastre-se"
+
+### 19 - Adicione um novo campo de texto no formulário se a pessoa usuária selecionar a opção "Personalizado" no campo Gênero
+
+  Pontos importantes:
+    
+
+### 20 - Substituir o conteúdo do container com a classe right-content se o formulário estiver completamente preenchido e validado 
+
+  Pontos importantes:
+    
 
 ## Requisito Bônus
 
