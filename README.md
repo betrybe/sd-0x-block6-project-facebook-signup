@@ -187,14 +187,14 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
   * O elemento deve posicionado abaixo da barra azul
 
 
-### 9 - Crie um subcontainer com a classe left-content para colocar o conteúdo do lado esquerdo dentro do container com a classe main-content 
+### 9 - Crie um subcontainer com a classe left-content para colocar o conteúdo do lado esquerdo dentro do container com a classe main-content
 
   Pontos importantes:
   * O subcontainer deve ter a classe left-content
   * A classe left-content deve ter uma largura de 800px
   * Dentro do container com a classe left-content deve existir um parágrafo com id facebook-slogan e o texto "O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida."
   * Dentro do container com a classe left-content deve existir abaixo do parágrafo com id facebook-slogan uma imagem com id facebook-networking e o src com o endereço `imgs/networking.png`.
-    
+
 
 ### 10 - Crie um subcontainer com a classe right-content para colocar o conteúdo do lado direito dentro do container com a classe main-content
 
@@ -228,7 +228,7 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
   * O campo deve ter o atributo name com o valor "phone_email"
   * O campo deve ter um placeholder com o valor "Celular ou email"
   * Posicione esse campo abaixo do campo do nome do usuário
-    
+
 
 ### 14 - Crie um campo de entrada para senha do usuário dentro do formulário criado no requisito 10
 
@@ -237,7 +237,7 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
   * O campo deve ser do tipo "password"
   * O campo deve ter um placeholder com o valor "Nova senha"
   * Posicione esse campo abaixo do celular/email
-    
+
 
 ### 15 - Crie um campo de entrada para data de nascimento do usuário dentro do formulário criado no requisito 10
 
@@ -246,7 +246,7 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
   * O campo deve ter o atributo name com o valor "birthdate"
   * O campo deve ter um placeholder com o valor "dd/mm/aaaa"
   * Posicione esse campo abaixo do rótulo
-    
+
 
 ### 16 - Crie um campo de entrada para gênero do usuário dentro do formulário criado no requisito 10
 
@@ -261,7 +261,7 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
   Pontos importantes:
   * Um botão com o texto "Cadastre-se" e id "facebook-register"
   * Deve ter a propriedade type igual a submit
-    
+
 
 ### 18 - Validar se todos os campos foram preenchidos ao clicar no botão "Cadastre-se"
 
@@ -274,7 +274,7 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
   * O novo campo dever ser uma campo de texto com o atributo name "gender-custom" e um placeholder "Gênero (opcional)"
   * O novo campo deve estar posicionado entre as opções de gênero e o botão "Cadastrar-se"
 
-### 20 - Substituir o conteúdo do container com a classe right-content se o formulário estiver completamente preenchido e validado 
+### 20 - Substituir o conteúdo do container com a classe right-content se o formulário estiver completamente preenchido e validado
 
   Pontos importantes:
   * Deve haver um texto no modelo "Olá, Jonh Doe" (substitua John Doe pelo nome e sobrenome preenchido no formulário)
