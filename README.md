@@ -130,7 +130,7 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
   Pontos importantes:
   * Esta barra deve possuir a classe top-bar
   * A classe top-bar deve determinar que o elemento é um flex container
-  * A classe top-bar deve possuir a propriedade `background-color: rgb(66, 103, 178)
+  * A classe top-bar deve possuir a propriedade `background-color: rgb(66, 103, 178)`
 
 
 ### 2 - A barra superior deve conter o logotipo do Facebook no canto esquerdo com a classe facebook-logo
