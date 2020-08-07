@@ -281,12 +281,9 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
   * Exibir o e-mail ou telefone
   * Não exibir a senha
   * Exibir a data de nascimento
-  * Exibir o gênero preenchido de acordo com as seguintes regras:
-    * Caso a opção selecionada seja Masculino exibir "Masculino"
-    * Caso a opção selecionada seja Feminino exibir "Feminino"
-    * Caso a opção selecionada seja Personalizado exibir "Personalizado":
-      * Caso tenha preenchido o campo "Gênero (Opcional) exibir "Personalizado: (valor preenchido)
-      * Caso não tenha preenchido o campo "Gênero (Opcional) exibir "Personalizado: não informado
+  * Caso a opção selecionada no campo Gênero seja Feminino exibir "Feminino"
+  * Caso a opção selecionada no campo Gênero seja Masculino exibir "Masculino"
+  * Caso a opção selecionada no campo Gênero seja Personalizado exibir "Personalizado":
 
 ## Requisito Bônus
 
