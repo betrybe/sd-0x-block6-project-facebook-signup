@@ -244,6 +244,7 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
   Pontos importantes:
   * Um rótulo abaixo do campo nova senha com o id label-birthdate e o texto "Data de nascimento"
   * O campo deve ter o atributo name com o valor "birthdate"
+  * O campo deve ser do tipo "text"
   * O campo deve ter um placeholder com o valor "dd/mm/aaaa"
   * Posicione esse campo abaixo do rótulo
 
