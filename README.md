@@ -152,7 +152,7 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
 ### 4 - Crie uma classe no CSS chamada form-group
 
   Pontos importantes:
-  * Essa classe deve possuir a propriedade `diplay: flex`
+  * Essa classe deve possuir a propriedade `display: flex`
   * Alinhe o eixo principal dessa classe para ser o eixo vertical
 
 
