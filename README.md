@@ -19,18 +19,15 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
   - [Desenvolvimento](#desenvolvimento)
   - [Data de entrega](#data-de-entrega)
-<!-- - [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
+- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
   - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
+  - [Dicas](#dicas)
 - [Como desenvolver](#como-desenvolver)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
+- [Code Climate](#code-climate)
 - [Requisitos do projeto](#requisitos-do-projeto)
-  - [Code Climate](#code-climate)
-  - [Execução de testes de requisito](#execução-de-testes-de-requisito)
-  - [API Shopping Cart](#api-shopping-cart)
-- [Lista de requisitos](#lista-de-requisitos) -->
-
+- [Lista de requisitos obrigatórios](#lista-de-requisitos-obrigatórios)
 - [Avisos finais](#avisos-finais)
 
 ---
@@ -61,11 +58,7 @@ Neste projeto, você irá desenvolver a página inicial do Facebook. O projeto d
 
 ### Desenvolvimento
 
----
-
-#### ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
-
----
+⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
 
 O seu Pull Request deverá conter os arquivos `index.html`, `style.css` e `script.js`, que conterão seu código HTML, CSS e JavaScript, respectivamente.
 
@@ -151,7 +144,7 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
 
 ---
 
-### Depois de terminar o desenvolvimento (Opcional)
+### Depois de terminar o desenvolvimento (opcional)
 
 Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
 
@@ -165,19 +158,72 @@ Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus co
 
 Caso tenha alguma dúvida, [aqui tem um vídeo explicativo](https://vimeo.com/362189205).
 
+### Dicas
+
+- Para colocar sua página no [GitHub Pages](https://pages.github.com/), não é necessário remover o conteúdo que já está lá, você pode apenas adicionar essa nova página. Para isso, todo o conteúdo desse projeto deve ser colocado em uma pasta `/projetos/facebook-signup`.
+
 ---
 
 ## Como desenvolver
+
+Você irá desenvolver este projeto em **dupla** e é fundamental que siga as instruções do repositório.
+
+Todos os requisitos tem como base a página do **Facebook**. Use a imagem do site, além de acessar [este link com a página antiga de cadastro/login](https://web.archive.org/web/20200101163229if_/https://pt-br.facebook.com/). Tente ser o mais fiel possível.
+
+Use a inspeção de código para verificar a estrutura da página de cadastro/login do **Facebook**.
+
+![Página Facebook](./facebook.png)
+
+---
+
+### Observações técnicas:
+
+Algumas coisas devem seguir um padrão pré-estabelecido para que os teste de correção funcionem corretamente.
+
+⚠️ Leia-os atentamente e siga à risca o que for pedido. Em particular, **atente-se para os nomes de _ids_ que alguns elementos de seu projeto devem possuir**. ⚠️
+
+⚠ **Alguns requisitos pedem para utilizar flex box. Tenha atenção no que é solicitado caso vá usar algum framework CSS para que o requisitos sejam atendidos.** ⚠
+
+O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
+
+* Os requisitos do seu projeto são avaliados automaticamente, sendo utilizada a resolução de tela de `1366 x 768` (1366 pixels de largura por 768 pixels de altura).
+
+  * #### ⚠️ Logo, recomenda-se desenvolver seu projeto usando a mesma resolução, via instalação [deste plugin](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) do `Chrome` para facilitar a configuração da resolução. ⚠️
+
+* Atente-se para o tamanho das imagens que você utilizará neste projeto. **Não utilize imagens com um tamanho maior que _500Kb_.**
+  * #### ⚠️ Utilize uma ferramenta [como esta](https://picresize.com/pt) para redimensionar as imagens. ⚠️
+
+  * Caso a avaliação falhe com alguma mensagem de erro parecida com `[409:0326/130838.878602:FATAL:memory.cc(22)] Out of memory. size=4194304`, provavelmente as imagens que você está utilizando estão muito grandes. Tente redimensiona-las para um tamanho menor.
+
+* Para verificar se a sua avaliação foi computada com sucesso, você pode verificar os **detalhes da execução do avaliador**.
+
+  * Na página do seu _Pull Request_, acima do "botão de merge", procure por _**"Evaluator job"**_ e clique no link _**"Details"**_;
+
+  * Na página que se abrirá, procure pela linha _**"Cypress evaluator step"**_ e clique nela;
+
+  * Analise os resultados a partir da mensagem _**"(Run Starting)"**_;
+
+  * Caso tenha dúvidas, consulte [este vídeo](https://vimeo.com/420861252) ou procure a monitoria.
+
+* Você tem liberdade para adicionar novos comportamentos ao seu projeto, seja na forma de aperfeiçoamentos em requisitos propostos ou novas funcionalidades, **desde que tais comportamentos adicionais não conflitem com os requisitos propostos**.
+
+  * Em outras palavras, você pode fazer mais do que for pedido, mas nunca menos.
+
+* Contudo, tenha em mente que **nada além do que for pedido nos requisitos será avaliado**. _Esta é uma oportunidade de você exercitar sua criatividade e experimentar com os conhecimentos adquiridos._
+
+---
+
+## Code Climate
+
+⚠️ Lembre-se que o seu projeto só será avaliado se estiver passando pelos _checks_ do **CodeClimate**.
 
 ---
 
 ## Requisitos do projeto
 
----
+Caso você faça o download de bibliotecas externas, utilize o diretório libs (a partir da raiz do projeto) para colocar os arquivos (*.css, *.js, etc...) baixados.
 
-## Requisitos Obrigatórios:
-
-Caso você faça o _download_ de bibliotecas externas, utilize o diretório _libs_ (a partir da raiz do projeto) para colocar os arquivos (*.css, *.js, etc...) baixados.
+### Lista de requisitos obrigatórios:
 
 ### 1 - Crie uma barra azul na parte superior da página com a classe top-bar
 
@@ -187,7 +233,7 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
   * A classe top-bar deve possuir a propriedade `background-color: rgb(66, 103, 178)`
 
 
-### 2 - A barra superior deve conter o logotipo do Facebook no canto esquerdo com a classe facebook-logo
+### 2 - Posicionar o logotipo do Facebook no canto esquerdo com a classe facebook-logo na barra superior 
 
   Pontos importantes:
   * O logotipo deve estar alinhado a esquerda dentro da barra azul
@@ -195,11 +241,11 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
   * O atributo src do logotipo deve apontar para imgs/facebook-logo.png
 
 
-### 3 - A barra superior deve conter um formulário de autenticação no canto direito
+### 3 - Adicione um formulário de autenticação no canto direito da barra superior
 
   Pontos importantes:
   * O formulário deve estar alinhado a direita dentro da barra azul
-  * Existe formulário possui uma classe chamada facebook-login
+  * Existe formulário com uma classe chamada facebook-login
   * O formulário deve ser um flex container
 
 
@@ -341,11 +387,11 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
   * Caso a opção selecionada no campo Gênero seja Masculino exibir "Masculino"
   * Caso a opção selecionada no campo Gênero seja Personalizado exibir "Personalizado":
 
-## Requisito Bônus
+### Requisito Bônus
 
-**Esse requisito não é verificável pelo avaliador automático. Sua apresentação (opcional) será realizada durante o fechamento do dia seguinte ao final do projeto**
+Esse requisito **não** é verificável pelo avaliador automático. Sua apresentação **(opcional)** será realizada durante o fechamento do dia seguinte ao final do projeto
 
-### Realize o desenvolvimento da versão mobile do Facebook.
+**Realize o desenvolvimento da versão mobile do Facebook.**
 
 ![Página Facebook](./facebook-mobile.png)
 
