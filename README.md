@@ -233,7 +233,7 @@ Caso você faça o download de bibliotecas externas, utilize o diretório libs (
   * A classe top-bar deve possuir a propriedade `background-color: rgb(66, 103, 178)`
 
 
-### 2 - Posicionar o logotipo do Facebook no canto esquerdo com a classe facebook-logo na barra superior 
+### 2 - Posicione o logotipo do Facebook no canto esquerdo com a classe facebook-logo na barra superior 
 
   Pontos importantes:
   * O logotipo deve estar alinhado a esquerda dentro da barra azul
@@ -376,7 +376,7 @@ Caso você faça o download de bibliotecas externas, utilize o diretório libs (
   * O novo campo dever ser uma campo de texto com o atributo name "gender-custom" e um placeholder "Gênero (opcional)"
   * O novo campo deve estar posicionado entre as opções de gênero e o botão "Cadastrar-se"
 
-### 20 - Substituir o conteúdo do container com a classe right-content se o formulário estiver completamente preenchido e validado
+### 20 - Substitua o conteúdo do container com a classe right-content se o formulário estiver completamente preenchido e validado
 
   Pontos importantes:
   * Deve haver um texto no modelo "Olá, Jonh Doe" (substitua John Doe pelo nome e sobrenome preenchido no formulário)
