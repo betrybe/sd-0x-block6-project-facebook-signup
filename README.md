@@ -277,21 +277,21 @@ Caso você faça o download de bibliotecas externas, utilize o diretório libs (
   * Alinhe o eixo principal dessa classe para ser o eixo vertical
 
 
-### 5. Adicione um subcontainer com a classe form-group para agrupar o rótulo e campo "E-mail ou telefone" dentro do formulário criado na etapa 3
+### 5. Adicione um subcontainer com a classe form-group para agrupar o rótulo e campo `E-mail ou telefone` dentro do formulário criado na etapa 3
 
   Pontos importantes:
   * Deve haver um container utilizando a classe `form-group` criada no passo anterior
   * Dentro do container `form-group` criado, deve haver um rótulo com o id user-email-phone-label e o texto "Email ou telefone"
   * Dentro do container `form-group` criado, abaixo do rótulo deve haver campo de entrada de texto para receber o email ou o telefone do usuário com o id user-email-phone'
 
-### 6. Adicione um subcontainer com a classe form-group para agrupar o rótulo e campo "Senha" dentro do formulário criado na etapa 3
+### 6. Adicione um subcontainer com a classe form-group para agrupar o rótulo e campo `Senha` dentro do formulário criado na etapa 3
 
   Pontos importantes:
   * Deve haver um novo container utilizando a classe `form-group` criada no passo 4
   * Dentro do novo container `form-group` criado, deve haver um rótulo com o id user-password-label e o texto "Senha"
   * Dentro do novo container `form-group` criado, abaixo do rótulo deve haver campo de entrada para senha com o id user-password
 
-### 7. Adicione um subcontainer com a classe form-control com o botão "Entrar" dentro do formulário criado na etapa 3
+### 7. Adicione um subcontainer com a classe form-control com o botão `Entrar` dentro do formulário criado na etapa 3
 
   Pontos importantes:
   * Deve haver um novo container utilizando a classe `form-control` criada no passo anterior
@@ -391,7 +391,7 @@ Caso você faça o download de bibliotecas externas, utilize o diretório libs (
   Pontos importantes:
   * Exibir uma mensagem "Campos inválidos" dentro do formulário caso pelo menos um campo não esteja preenchido
 
-### 19. Adicione um novo campo de texto no formulário se a pessoa usuária selecionar a opção "Personalizado" no campo Gênero
+### 19. Adicione um novo campo de texto no formulário se a pessoa usuária selecionar a opção `Personalizado` no campo Gênero
 
   Pontos importantes:
   * O novo campo dever ser uma campo de texto com o atributo name "gender-custom" e um placeholder "Gênero (opcional)"
