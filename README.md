@@ -28,16 +28,16 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Code Climate](#code-climate)
 - [Requisitos do projeto](#requisitos-do-projeto)
 - [Lista de requisitos obrigatórios](#lista-de-requisitos-obrigatórios)
-  - [1. Crie uma barra azul na parte superior da página com a classe top-bar](#1-crie-uma-barra-azul-na-parte-superior-da-página-com-a-classe-top-bar)
-  - [2. Posicione o logotipo do Facebook no canto esquerdo com a classe facebook-logo na barra superior](#2-posicione-o-logotipo-do-facebook-no-canto-esquerdo-com-a-classe-facebook-logo-na-barra-superior)
+  - [1. Crie uma barra azul na parte superior da página](#1-crie-uma-barra-azul-na-parte-superior-da-página)
+  - [2. Posicione o logotipo do Facebook no canto esquerdo na barra superior](#2-posicione-o-logotipo-do-facebook-no-canto-esquerdo-na-barra-superior)
   - [3. Adicione um formulário de autenticação no canto direito da barra superior](#3-adicione-um-formulário-de-autenticação-no-canto-direito-da-barra-superior)
-  - [4. Crie uma classe no CSS chamada form-group](#4-crie-uma-classe-no-CSS-chamada-form-group)
-  - [5. Adicione um subcontainer com a classe form-group para agrupar o rótulo e campo "E-mail ou telefone" dentro do formulário criado na etapa 3](#5-adicione-um-subcontainer-com-a-classe-form-group-para-agrupar-o-rótulo-e-campo-"E-mail-ou-telefone"-dentro-do-formulário-criado-na-etapa-3)
-  - [6. Adicione um subcontainer com a classe form-group para agrupar o rótulo e campo "Senha" dentro do formulário criado na etapa 3](#6-adicione-um-subcontainer-com-a-classe-form-group-para-agrupar-o-rótulo-e-campo-"Senha"-dentro-do-formulário-criado-na-etapa-3)
-  - [7. Adicione um subcontainer com a classe form-control com o botão "Entrar" dentro do formulário criado na etapa 3](#7-adicione-um-subcontainer-com-a-classe-form-control-com-o-botão-"Entrar"-dentro-do-formulário-criado-na-etapa-3)
+  - [4. Crie uma classe no CSS](#4-crie-uma-classe-no-CSS)
+  - [5. Adicione um subcontainer para agrupar o rótulo e campo "E-mail ou telefone" dentro do formulário criado na etapa 3](#5-adicione-um-subcontainer-para-agrupar-o-rótulo-e-campo-"E-mail-ou-telefone"-dentro-do-formulário-criado-na-etapa-3)
+  - [6. Adicione um subcontainer para agrupar o rótulo e campo "Senha" dentro do formulário criado na etapa 3](#6-adicione-um-subcontainer-para-agrupar-o-rótulo-e-campo-"Senha"-dentro-do-formulário-criado-na-etapa-3)
+  - [7. Adicione um subcontainer com o botão "Entrar" dentro do formulário criado na etapa 3](#7-adicione-um-subcontainer-com-o-botão-"Entrar"-dentro-do-formulário-criado-na-etapa-3)
   - [8. Crie um container com a classe main-content abaixo da barra azul para agrupar o conteúdo principal da página](#8-crie-um-container-com-a-classe-main-content-abaixo-da-barra-azul-para-agrupar-o-conteúdo-principal-da-página)
-  - [9. Crie um subcontainer com a classe left-content para colocar o conteúdo do lado esquerdo dentro do container com a classe main-content](#9-crie-um-subcontainer-com-a-classe-left-content-para-colocar-o-conteúdo-do-lado-esquerdo-dentro-do-container-com-a-classe-main-content)
-  - [10. Crie um subcontainer com a classe right-content para colocar o conteúdo do lado direito dentro do container com a classe main-content](#10-crie-um-subcontainer-com-a-classe-right-content-para-colocar-o-conteúdo-do-lado-direito-dentro-do-container-com-a-classe-main-content)
+  - [9. Crie um subcontainer para colocar o conteúdo do lado esquerdo](#9-crie-um-subcontainer-para-colocar-o-conteúdo-do-lado-esquerdo)
+  - [10. Crie um subcontainer para colocar o conteúdo do lado direito](#10-crie-um-subcontainer-para-colocar-o-conteúdo-do-lado-direito)
   - [11. Crie um campo de entrada de texto para o nome do usuário dentro do formulário criado no requisito 10](#11-crie-um-campo-de-entrada-de-texto-para-o-nome-do-usuário-dentro-do-formulário-criado-no-requisito-10)
   - [12. Crie um campo de entrada de texto para o sobrenome do usuário dentro do formulário criado no requisito 10](#12-crie-um-campo-de-entrada-de-texto-para-o-sobrenome-do-usuário-dentro-do-formulário-criado-no-requisito-10)
   - [13. Crie um campo de entrada de texto para o celular ou email do usuário dentro do formulário criado no requisito 10](#13-crie-um-campo-de-entrada-de-texto-para-o-celular-ou-email-do-usuário-dentro-do-formulário-criado-no-requisito-10)
@@ -246,19 +246,19 @@ Caso você faça o download de bibliotecas externas, utilize o diretório libs (
 
 ### Lista de requisitos obrigatórios:
 
-### 1. Crie uma barra azul na parte superior da página com a classe top-bar
+### 1. Crie uma barra azul na parte superior da página
 
   Pontos importantes:
-  * Esta barra deve possuir a classe top-bar
+  * A barra deve ter a classe top-bar
   * A classe top-bar deve determinar que o elemento é um flex container
   * A classe top-bar deve possuir a propriedade `background-color: rgb(66, 103, 178)`
 
 
-### 2. Posicione o logotipo do Facebook no canto esquerdo com a classe facebook-logo na barra superior
+### 2. Posicione o logotipo do Facebook no canto esquerdo na barra superior
 
   Pontos importantes:
-  * O logotipo deve estar alinhado a esquerda dentro da barra azul
   * Deve existir um elemento img com a classe facebook-logo
+  * O logotipo deve estar alinhado a esquerda dentro da barra azul
   * O atributo src do logotipo deve apontar para imgs/facebook-logo.png
 
 
@@ -270,37 +270,38 @@ Caso você faça o download de bibliotecas externas, utilize o diretório libs (
   * O formulário deve ser um flex container
 
 
-### 4. Crie uma classe no CSS chamada form-group
+### 4. Crie uma classe no CSS 
 
   Pontos importantes:
+  * Essa classe deve se chamar form-group
   * Essa classe deve possuir a propriedade `diplay: flex`
   * Alinhe o eixo principal dessa classe para ser o eixo vertical
 
 
-### 5. Adicione um subcontainer com a classe form-group para agrupar o rótulo e campo "E-mail ou telefone" dentro do formulário criado na etapa 3
+### 5. Adicione um subcontainer para agrupar o rótulo e campo "E-mail ou telefone" dentro do formulário criado na etapa 3
 
   Pontos importantes:
-  * Deve haver um container utilizando a classe `form-group` criada no passo anterior
-  * Dentro do container `form-group` criado, deve haver um rótulo com o id user-email-phone-label e o texto "Email ou telefone"
-  * Dentro do container `form-group` criado, abaixo do rótulo deve haver campo de entrada de texto para receber o email ou o telefone do usuário com o id user-email-phone'
+  * Este subcontainer deve se chamar `form-group`
+  * Dentro do subcontainer `form-group` criado, deve haver um rótulo com o id user-email-phone-label e o texto "Email ou telefone"
+  * Dentro do subcontainer `form-group` criado, abaixo do rótulo deve haver campo de entrada de texto para receber o email ou o telefone do usuário com o id user-email-phone'
 
-### 6. Adicione um subcontainer com a classe form-group para agrupar o rótulo e campo "Senha" dentro do formulário criado na etapa 3
-
-  Pontos importantes:
-  * Deve haver um novo container utilizando a classe `form-group` criada no passo 4
-  * Dentro do novo container `form-group` criado, deve haver um rótulo com o id user-password-label e o texto "Senha"
-  * Dentro do novo container `form-group` criado, abaixo do rótulo deve haver campo de entrada para senha com o id user-password
-
-### 7. Adicione um subcontainer com a classe form-control com o botão "Entrar" dentro do formulário criado na etapa 3
+### 6. Adicione um subcontainer para agrupar o rótulo e campo "Senha" dentro do formulário criado na etapa 3
 
   Pontos importantes:
-  * Deve haver um novo container utilizando a classe `form-control` criada no passo anterior
+  * Deve haver um novo subcontainer utilizando a classe `form-group`
+  * Dentro do novo subcontainer `form-group` criado, deve haver um rótulo com o id user-password-label e o texto "Senha"
+  * Dentro do novo subcontainer `form-group` criado, abaixo do rótulo deve haver campo de entrada para senha com o id user-password
+
+### 7. Adicione um subcontainer com o botão "Entrar" dentro do formulário criado na etapa 3
+
+  Pontos importantes:
+  * Deve haver um novo subcontainer utilizando a classe `form-control`
   * Crie uma classe no CSS form-control com a propriedade `align-self: flex-end`
-  * Dentro do novo container `form-control` criado, deve haver um botão com o id "button-login" e o texto "Entrar"
+  * Dentro do novo subcontainer `form-control` criado, deve haver um botão com o id "button-login" e o texto "Entrar"
   * O botão deve estar alinhado a direita do campo de entrada para senha
   * Ao clicar no botão com o id #button-login deve exibir um alert com o valor do campo "Email ou telefone"
 
-### 8. Crie um container com a classe main-content abaixo da barra azul para agrupar o conteúdo principal da página
+### 8. Crie um container abaixo da barra azul para agrupar o conteúdo principal da página
 
   Pontos importantes:
   * Crie um elemento com a classe main-content
@@ -308,18 +309,20 @@ Caso você faça o download de bibliotecas externas, utilize o diretório libs (
   * O elemento deve posicionado abaixo da barra azul
 
 
-### 9. Crie um subcontainer com a classe left-content para colocar o conteúdo do lado esquerdo dentro do container com a classe main-content
+### 9. Crie um subcontainer para colocar o conteúdo do lado esquerdo
 
   Pontos importantes:
+  * Crie o subcontainer dentro do container com a classe main-content
   * O subcontainer deve ter a classe left-content
   * A classe left-content deve ter uma largura de 800px
   * Dentro do container com a classe left-content deve existir um parágrafo com id facebook-slogan e o texto "O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida."
   * Dentro do container com a classe left-content deve existir abaixo do parágrafo com id facebook-slogan uma imagem com id facebook-networking e o src com o endereço `imgs/networking.png`.
 
 
-### 10. Crie um subcontainer com a classe right-content para colocar o conteúdo do lado direito dentro do container com a classe main-content
+### 10. Crie um subcontainer para colocar o conteúdo do lado direito
 
   Pontos importantes:
+  * Crie o subcontainer dentro do container com a classe main-content
   * O novo subcontainer deve ter a classe right-content
   * A classe right-content deve ter uma largura de 300px
   * Utilize na classe main-content a propriedade justify-content com o valor mais apropriado para alinhar os conteúdos
