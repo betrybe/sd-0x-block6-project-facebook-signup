@@ -90,7 +90,7 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
     - Projeto em dupla.
 
     - Será um dia de projeto.
-    
+
     - O projeto tem até a seguinte data: `DD/MM/YYYY - 14:00h`. Para ser entregue a avaliação final.
 
 ---
