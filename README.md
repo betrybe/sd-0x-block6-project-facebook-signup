@@ -379,8 +379,8 @@ Caso você faça o download de bibliotecas externas, utilize o diretório libs (
   * Um rótulo abaixo do campo nova senha com o id label-gender e o texto "Gênero"
   * O campo deve ser formado por três `radio buttons` com as opções "Feminino", "Masculino" e "Personalizado"
   * Os `radio buttons` devem ter o atributo name com o valor "gender"
-  * Posicione os radio buttons para ficar na mesma linha
-  * Posicione os radio buttons para ficar abaixo do label
+  * Posicione os radio buttons para ficar na mesma linha 
+  * Posicione os radio buttons para ficar abaixo do label, é importante que tenha uma margin entre os dois
 
 ### 17. Crie um botão para finalizar o cadastro dentro do formulário criado no requisito 10
 
