@@ -100,9 +100,9 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
 ### Antes de começar a desenvolver:
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-0x-block6-project-facebook-signup.git`.
+  * `git clone https://github.com/tryber/sd-0x-project-facebook-signup.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-0x-block6-project-facebook-signup`
+    * `cd sd-0x-project-facebook-signup`
 
 2. Crie uma branch a partir da branch `master`
   * Verifique que você está na branch `master`
@@ -115,7 +115,7 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
 
 3. Crie na raiz do projeto os arquivos que você precisará desenvolver:
   * Verifique que você está na raiz do projeto
-    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joaozinho/code/**sd-0x-block6-project-facebook-signup**_
+    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joaozinho/code/**sd-0x-project-facebook-signup**_
   * Crie os arquivos index.html, style.css e script.js
     * Exemplo: `touch index.html style.css script.js`
 
@@ -135,13 +135,13 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
   * Usando o exemplo anterior: `git push -u origin joaozinho-facebook-project`
 
 6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-block6-project-facebook-signup/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-facebook-signup/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-block6-project-facebook-signup/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-facebook-signup/pulls) e confira que o seu _Pull Request_ está criado
 
 ---
 
