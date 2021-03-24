@@ -232,14 +232,6 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 * Contudo, tenha em mente que **nada além do que for pedido nos requisitos será avaliado**. _Esta é uma oportunidade de você exercitar sua criatividade e experimentar com os conhecimentos adquiridos._
 
----
-
-## Code Climate
-
-⚠️ Lembre-se que o seu projeto só será avaliado se estiver passando pelos _checks_ do **CodeClimate**.
-
----
-
 ## Requisitos do projeto
 
 Caso você faça o download de bibliotecas externas, utilize o diretório libs (a partir da raiz do projeto) para colocar os arquivos (*.css, *.js, etc...) baixados.
@@ -403,6 +395,7 @@ Caso você faça o download de bibliotecas externas, utilize o diretório libs (
 ### 20. Substitua o conteúdo do container com a classe right-content se o formulário estiver completamente preenchido e validado
 
   Pontos importantes:
+  * NENHUM `name` de input deve se repetir
   * Deve haver um texto no modelo "Olá, Jonh Doe" (substitua John Doe pelo nome e sobrenome preenchido no formulário)
   * Exibir o e-mail ou telefone
   * Não exibir a senha
